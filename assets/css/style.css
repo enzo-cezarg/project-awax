@@ -32,7 +32,10 @@ body {
 .logo-img {
     width: 80px;
     height: 80px;
-    background-color: #b28756;
+    border-radius: 40px;
+    background-image: url(../images/raposa.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .menu {
@@ -65,5 +68,94 @@ body {
 }
 
 .menu li a:hover, .menu .active a {
+    color: #ddd;
     border-bottom: 5px solid #b28756;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background-color: #333;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+
+.banner .slide {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    width: 100vw;
+    height: 100%;
+}
+
+.banner .slide-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner h1 span {
+    color: #b28756;
+}
+
+.banner h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.banner a {
+    display: block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.banner .sliders-pointers {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -50px;
+    width: 100vw;
+    height: 20px;
+}
+
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    transition: 90ms ease-in;
+}
+
+.banner .pointer:hover {
+    background-color: #b28756;
+}
+
+.banner .pointer.active {
+    background-color: #b28756;
 }
