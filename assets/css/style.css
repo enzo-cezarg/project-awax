@@ -394,8 +394,9 @@ body {
 .section-team .slide-area {
     display: flex;
     flex-direction: column;
+    padding: 30px;
     height: 100%;
-    color: #fff;
+    color: #000;
     justify-content: center;
     align-items: center;
 }
@@ -423,5 +424,48 @@ body {
 }
 
 .section-team-area .pointer.active {
+    background-color: #b28756;
+}
+
+.section-team--avatar {
+    width: 150px;
+    height: auto;
+}
+
+.section-team--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.section-team--role {
+    font-size: 13px;
+    color: #999;
+    
+}
+
+.section-team--social {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-team--social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 13px;
+    transition: 90ms ease-in;
+}
+
+.section-team--social:last-child {
+    margin-right: -10px;
+}
+
+.section-team--social a:hover {
     background-color: #b28756;
 }
