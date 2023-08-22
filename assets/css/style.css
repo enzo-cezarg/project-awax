@@ -194,6 +194,10 @@ body {
     background-color: #f7f7f7;
 }
 
+.default.light.gradient {
+    background-image: linear-gradient(#f7f7f7, #f6f6f6);
+}
+
 .default.light .section-title,
 .default.light .section-body {
     color: #000;
