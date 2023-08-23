@@ -212,6 +212,11 @@ body {
     color: #fff;
 }
 
+.default.light.shadow {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
 
 /* SPECIFIC AREAS CSS */
 .section-aboutus {
@@ -546,4 +551,23 @@ body {
 
 .section-clients .pointer.active {
     background-color: #b28756;
+}
+
+.section-companies .section-companies--logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    gap: 75px;
+    width: 100vw;
+    
+}
+
+.section-companies--logo {
+    max-width: 95px;
+}
+
+.section-companies--logos .section-companies--logo img {
+    width: 95px;
 }
