@@ -217,6 +217,11 @@ body {
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
+.default.light.gray {
+    background-color: #ededed;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
 
 /* SPECIFIC AREAS CSS */
 .section-aboutus {
