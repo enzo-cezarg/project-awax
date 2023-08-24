@@ -133,6 +133,20 @@ body {
     border-radius: 20px;
 }
 
+.button.dark {
+    background-color: #373737;
+}
+
+.button.dark:hover {
+    transition: 90ms ease-in;
+    background-color: #b28756;
+}
+
+.button.dark:not(:hover) {
+    transition: 90ms ease-in;
+    background-color: #373737;
+}
+
 .banner .sliders-pointers {
     display: flex;
     gap: 10px;
@@ -574,4 +588,51 @@ body {
 
 .section-companies--logos .section-companies--logo img {
     width: 95px;
+}
+
+.section-price-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section-price--plan {
+    background-color: #fff;
+    padding: 25px 75px;
+    text-align: center;
+}
+
+.section-price--name,
+.section-price--pricing,
+.section-price--sub {
+    text-transform: uppercase;
+    min-width: 110px;
+}
+
+.section-price--name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section-price--pricing {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.section-price--sub {
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #777;
+}
+
+.section-price--desc p {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.section-price--plan .button {
+    font-size: 12px;
+    padding: 18px 40px;
 }
