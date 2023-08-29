@@ -644,8 +644,9 @@ body {
     color: #777;
 }
 
-.section-price--desc p {
-    margin-top: 25px;
+.section-price--desc .price-desc-item {
+    flex: 1;
+    margin-top: 10px;
     font-size: 12px;
 }
 
@@ -656,4 +657,19 @@ body {
 
 .pointer:not(:hover) {
     transition:90ms ease-in;
+}
+
+.section-premium-area {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 75px;
+    border-bottom: 3px solid #ddd;
+}
+
+.section-premium--first-area img {
+    width: 325px;
+}
+
+.premium--desc-check img {
+    width: 25px;
 }
