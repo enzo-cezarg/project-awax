@@ -240,7 +240,6 @@ body {
     box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
-
 /* SPECIFIC AREAS CSS */
 .section-aboutus {
     display: flex;
@@ -659,17 +658,58 @@ body {
     transition:90ms ease-in;
 }
 
-.section-premium-area {
+.section-premium--area {
     display: flex;
-    flex-direction: row;
-    padding: 50px 75px;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 2px solid #ccc;
 }
 
-.section-premium--first-area img {
-    width: 325px;
+.section-premium--left img {
+    margin: 0px 0px 40px 85px;
 }
 
-.premium--desc-check img {
-    width: 25px;
+.section-premium--right {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-premium--right .section-premium--item {
+    flex: 1;
+}
+
+.section-premium--left,
+.section-premium--right {
+    flex: 1;
+}
+
+.section-premium--item {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 25px;
+}
+
+.section-premium--item-text h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-premium--item-text p {
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+}
+
+p.section-premium--item-features {
+    text-transform: uppercase;
+}
+
+.section-premium--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.section-premium--button a {
+    padding: 15px 40px;
 }
