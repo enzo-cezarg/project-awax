@@ -240,6 +240,31 @@ body {
     box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
+.section-body .sliders-pointers {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.section-body .pointer {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    transition: 90ms ease-in;
+}
+
+.section-body .pointer:hover {
+    background-color: #b28756;
+}
+
+.section-body .pointer.active {
+    background-color: #b28756;
+}
+
 /* SPECIFIC AREAS CSS */
 .section-aboutus {
     display: flex;
