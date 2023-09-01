@@ -738,3 +738,42 @@ p.section-premium--item-features {
 .section-premium--button a {
     padding: 15px 40px;
 }
+
+.section-facts-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+}
+
+.section-facts-area .section-fact {
+    flex: 1;
+    padding: 35px;
+}
+
+.section-fact .fact-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #b28756;
+}
+
+.section-fact .fact-underline {
+    max-width: 18px;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 3px solid #777;
+    text-align: center;
+}
+
+.section-fact h5 {
+    min-height: 50px;
+    margin-top: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section-fact .fact-desc {
+    color: #ccc;
+    line-height: 20px;
+}
