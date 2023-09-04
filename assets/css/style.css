@@ -793,7 +793,7 @@ p.section-premium--item-features {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -822,6 +822,10 @@ p.section-premium--item-features {
     font-weight: bold;
     font-size: 16px;
     color: #bbb;
+}
+
+.section-sharing--text.small {
+    font-size: 14px;
 }
 
 .section-sharing--social-media {
