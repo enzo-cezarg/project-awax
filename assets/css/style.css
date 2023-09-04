@@ -797,6 +797,11 @@ p.section-premium--item-features {
     align-items: center;
 }
 
+.section-sharing--icon-area {
+    display: flex;
+    align-items: center;
+}
+
 .section-sharing--share {
     cursor: pointer;
 }
@@ -821,7 +826,7 @@ p.section-premium--item-features {
 
 .section-sharing--social-media {
     display: flex;
-    gap: 90px;
+    gap: 75px;
 }
 
 .section-sharing--media-icon {
